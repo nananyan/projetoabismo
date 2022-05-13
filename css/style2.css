@@ -1,0 +1,118 @@
+*,html {
+    Margin:0;
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    --blackest-green:hsl(137, 18%, 8%);
+    --light-green:hsl(153, 70%, 63%);
+    --med-green: hsl(165, 66%, 25%);
+    --dark-green:hsl(151, 42%, 14%);
+    --white: hsl(153, 35%, 92%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-image: url(../png/fundo.png);
+    background-repeat: no-repeat;
+    background-position: 0 -9rem;
+}
+
+/*CABECALHO DO CTHULHU*/
+#header {
+    width: 100%;
+}
+
+.caixa {
+    height: 6.5rem;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+}
+
+.prime {
+    height: 6.5rem;
+    margin-left: 11.2rem;
+    margin-top: 0.7rem;
+    position: absolute;
+}
+.prime .prime-icon{
+    margin: 0;
+    height: 80%;
+}
+
+.abismo-logo {
+    height: 6.5rem;
+    width: auto;
+    margin-top: 1rem;
+}
+
+.abismo-logo .logo {
+    height: 70%;
+}
+
+/*NAVEGACAO CENOBITA*/
+
+main .menu {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 23rem;
+    justify-content: center;
+    align-items: center;
+    gap: 14.7rem;
+        
+}
+.agendinha,.sisteminha,.contatinho,.arquivinho,.abisminho {
+    height: 5rem;
+    filter: drop-shadow(2px 5px 5px var(--blackest-green));
+}
+
+.agendinha:hover {
+    border-color: #f1ff5c;
+    color: white;
+    transform: translateY(-0.4rem);
+    cursor: pointer;
+    
+}
+
+/*MIDIAS*/
+
+.medias {
+    margin-top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 6.6rem;
+}
+
+.produto-banner{
+    width: 83.6rem;
+    height: 18rem;
+}
+
+.produtos {
+    display: grid;
+    
+}
+
+.produtos h1 {
+    color: var(--light-green);
+    font-size: 3rem;
+    font-weight: 900;
+    width: 37.5rem;
+    margin-top: 2rem ;
+}
+
+.produtos p{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 200;
+    width: 83.6rem;
+    margin-top: 1.5rem;
+}
+
+.cupom {
+    color: var(--white);
+    font-size: 2.4rem;
+    font-weight: 700; 
+}
